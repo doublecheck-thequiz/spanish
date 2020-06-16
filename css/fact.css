@@ -134,12 +134,11 @@ a:hover {
 }
 
 @font-face {
-    font-family: 'bandeins_strangeBdExhalf';
-    src: url('bandeinsstrangeboldextendedhalf-webfont.woff2') format('woff2'),
-         url('bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'bandeins_strangeBdExhalf';
+  src: url('bandeinsstrangeboldextendedhalf-webfont.woff2') format('woff2'),
+    url('bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .db-r {
@@ -495,7 +494,7 @@ a:hover {
   font-family: bandeinsstrangelight;
 }
 
-.cls-101{
+.cls-101 {
   font-family: bandeins_strangebold;
 }
 
@@ -529,14 +528,16 @@ a:hover {
 }
 
 #next1 {
-  width: 60%;
+  width: 80%;
   height: auto;
   z-index: 100;
   cursor: pointer;
+  padding-left: 0 !important;
+  margin-left: 5rem;
 }
 
 #end1 {
-  width: 60%;
+  width: 50%;
   height: auto;
   z-index: 100;
   cursor: pointer;
@@ -670,7 +671,6 @@ a:hover {
 
 /* tablet */
 @media only screen and (max-width: 1024px) {
-
   #next1 {
     width: 100%;
     margin-right: 1rem;
@@ -712,13 +712,12 @@ a:hover {
 
   #HINTC {
     width: 80%;
-    margin:  4rem auto;
+    margin: 4rem auto;
   }
 
   #war {
     padding-top: 20%;
   }
-
 
   .buttons {
     width: 30%;
@@ -727,6 +726,4 @@ a:hover {
     left: 68%;
     top: 90%;
   }
-
-
 }
